@@ -1,2 +1,2 @@
-# cucumberplugin
-Platform=android/ios/both mvn clean -Dtest=Runner test
+# RunnerClassGenerator
+Platform=android/ios/both mvn clean -Dtest=RunnerCukes test
