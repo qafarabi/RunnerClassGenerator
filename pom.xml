@@ -21,9 +21,9 @@
 		</pluginRepository>
 	</pluginRepositories>
 
-	<groupId>com.github.saikrishna321</groupId>
-	<artifactId>cucumber-jvm-parallel-plugin</artifactId>
-	<version>2.0.9</version>
+	<groupId>com.github.qafarabi</groupId>
+	<artifactId>cucumberplugin</artifactId>
+	<version>1.0.0</version>
 	<packaging>maven-plugin</packaging>
 
 	<properties>
