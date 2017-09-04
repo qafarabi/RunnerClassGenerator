@@ -1,0 +1,16 @@
+package output;
+import org.junit.runner.RunWith;
+
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(strict = $strict,
+    features = {"classpath:$featureFile"},
+    format = {$reports, "pretty"},
+    monochrome = ${monochrome},
+    tags = {$tags},
+    plugin = {"com.cucumber.listener.ExtentCucumberFormatter:"},
+    glue = { $glue })
+public class Parallel${fileCounter}IT {
+}

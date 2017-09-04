@@ -1,0 +1,13 @@
+package output;
+import cucumber.api.CucumberOptions;
+import cucumber.api.testng.AbstractTestNGCucumberTests;
+
+@CucumberOptions(strict = $strict,
+    features = {"classpath:$featureFile"},
+    format = {$reports, "pretty"},
+    monochrome = ${monochrome},
+    tags = {$tags},
+    plugin = {"com.cucumber.listener.ExtentCucumberFormatter:"},
+    glue = { $glue })
+public class Parallel${fileCounter}IT extends AbstractTestNGCucumberTests {
+}
