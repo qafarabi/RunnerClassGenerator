@@ -22,7 +22,7 @@
 	</pluginRepositories>
 
 	<groupId>com.github.qafarabi</groupId>
-	<artifactId>cucumberplugin</artifactId>
+	<artifactId>RunnerClassGenerator</artifactId>
 	<version>1.0.0</version>
 	<packaging>maven-plugin</packaging>
 
